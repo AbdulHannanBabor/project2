@@ -62,3 +62,51 @@ margin-top: 40px;
     padding: 50px;
 }
 
+.player-container{
+margin-top: 20px;
+
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px; 
+    grid-row-gap:20px ;
+    justify-items: center;
+    
+}
+.player-box{
+
+   background-color:#FFFFFF;
+   padding: 15px;
+   
+
+}
+.player-box img{
+
+    width: 330px;
+    height: 474px;
+  
+
+}
+.player-box h1{
+color: black;
+font-size: 30px;
+padding: 10px;
+
+
+}
+.player-box p{
+
+color: #6C6C6C;
+text-align:justify;
+font-size: 15px;
+
+
+
+
+}
+
+
+
